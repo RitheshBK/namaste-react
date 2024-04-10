@@ -27,6 +27,9 @@
  * 
  */
 
+import React from "react";
+import  ReactDOM  from "react-dom/client";
+
 const parent = React.createElement(
    "div",
    {class: "main-parent"},
@@ -46,7 +49,7 @@ const parent = React.createElement(
                     React.createElement(
                         "h1",
                         {},
-                        "this is another h1 tag"
+                        "this is another h1 tag Rithesh1"
                     ),
                 ]
             )
